@@ -2,6 +2,10 @@
 POINTING_DEVICE_ENABLE = yes
 POINTING_DEVICE_DRIVER = cirque_pinnacle_spi
 
+# Enable Unicode support
+UNICODE_COMMON = yes
+UNICODE_ENABLE = yes
+
 # May need to be changed when adding more displays
 QUANTUM_PAINTER_ENABLE = yes
 QUANTUM_PAINTER_DRIVERS += st7789_spi surface
